@@ -1,14 +1,29 @@
 {
-  "name": "dominios",
-  "version": "1.0.0",
-  "description": "",
+  "name": "dominio",
+  "version": "1.0.2",
+  "description": "Verificar se um dominio X esta disponivel no registro.br",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "dominio": "index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=4"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "domain",
+    "registrobr"
+  ],
+  "author": {
+    "name": "Thiago Galvani",
+    "email": "thiagopaiva99@gmail.com",
+    "homepage": "https://thiagopaiva99.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagopaiva99/dominios"
+  },
+  "license": "MIT",
   "devDependencies": {
     "chalk": "^2.1.0",
     "entities": "^1.1.1",

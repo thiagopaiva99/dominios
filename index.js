@@ -1,7 +1,10 @@
+#! /usr/bin/env node
+'use strict'
+
 // require do node-fetch
 const fetch  = require('node-fetch')
 const chalk  = require('chalk')
-const escape = require('entities');
+const escape = require('entities')
 
 // pega a o dominio passado por parametro
 const domain = (process.argv[ 2 ] || '').toLowerCase()
