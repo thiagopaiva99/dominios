@@ -1,4 +1,4 @@
-# dominios [![NPM version](https://img.shields.io/npm/v/csso.svg)](https://www.npmjs.com/package/dominio) [![Build Status](https://travis-ci.org/thiagopaiva99/dominios.svg?branch=master)](https://travis-ci.org/thiagopaiva99/dominios)
+# dominios [![NPM version](https://img.shields.io/npm/v/dominio.svg)](https://www.npmjs.com/package/dominio) [![Build Status](https://travis-ci.org/thiagopaiva99/dominios.svg?branch=master)](https://travis-ci.org/thiagopaiva99/dominios)
 
 > Verifique a situaçao atual um dominio X no registro.br
 
