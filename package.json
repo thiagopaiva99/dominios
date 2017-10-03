@@ -1,0 +1,17 @@
+{
+  "name": "dominios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.1.0",
+    "entities": "^1.1.1",
+    "node-fetch": "^1.7.3"
+  }
+}
