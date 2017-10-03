@@ -1,4 +1,4 @@
-# dominios
+# dominios [![Build Status](https://travis-ci.org/thiagopaiva99/dominios.svg?branch=master)](https://travis-ci.org/thiagopaiva99/dominios)
 
 > Verifique a situaçao atual um dominio X no registro.br
 
