@@ -1,5 +1,6 @@
-const rbr = require('./index.js');
+#! /usr/bin/env node
 
+const rbr = require('./index.js');
 const chalk  = require('chalk')
 const escape = require('entities')
 
