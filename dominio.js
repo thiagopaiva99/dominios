@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const rbr = require('./index.js');
+const fetch  = require('./index.js');
 const chalk  = require('chalk')
 const escape = require('entities')
 
@@ -109,12 +109,7 @@ special_characters( hostname )
 
 // faz a consulta no registro.br para verificar o dominio
 
-rbr( domain ).then(res => {
+fetch( domain ).then(res => {
   result = res
   parse(result)
 })
-
-/*check( domain ).then(res => {
-  result = res
-  parse(result)
-})*/
