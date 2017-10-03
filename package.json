@@ -1,10 +1,10 @@
 {
   "name": "dominio",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Verificar se um dominio X esta disponivel no registro.br",
   "main": "index.js",
   "bin": {
-    "dominio": "index.js"
+    "dominio": "dominio.js"
   },
   "engines": {
     "node": ">=4"
@@ -13,6 +13,13 @@
   "keywords": [
     "domain",
     "registrobr"
+  ],
+  "scripts": {
+    "publish": "git add . && git commit -am \"New commit\" && git push origin master && npm publish"
+  },
+  "files": [
+    "dominio.js",
+    "index.js"
   ],
   "author": {
     "name": "Thiago Galvani",
@@ -24,7 +31,7 @@
     "url": "git+https://github.com/thiagopaiva99/dominios"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^2.1.0",
     "entities": "^1.1.1",
     "node-fetch": "^1.7.3"
