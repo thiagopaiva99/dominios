@@ -1,5 +1,4 @@
 #! /usr/bin/env node
-
 const fetch  = require('./index.js');
 const chalk  = require('chalk')
 const escape = require('entities')
@@ -9,9 +8,6 @@ const domain = (process.argv[ 2 ] || '').toLowerCase()
 
 // variavel onde vai ser armazenado o resultado
 let result = {}
-
-// checa a URL https://registro.br/ajax/avail/${url} e retorna o resultado
-//const check   = ( url ) => fetch(`https://registro.br/ajax/avail/${url}`).then(res => res.json())
 
 // exibe a mensagem de sucesso caso houver
 const success = ( text ) => console.log( chalk.green( `Domínio ${chalk.bold( text )} está disponível`))
@@ -31,9 +27,7 @@ const parse   = ( data ) => {
   else {
     error( data.fqdn )
 
-    if (data.reason) {
-      reason( data.reason )
-    }
+    if (data.reason) reason( data.reason )
 
     if (data.suggestions && data.suggestions.length > 0) {
       console.log(chalk.yellow('Sugestões: '));
